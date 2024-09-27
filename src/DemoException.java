@@ -17,5 +17,22 @@ public class DemoException {
 
         }
         System.out.println(k);
+
+        int[] a = new int[4];
+        try {
+            for (int c=0; c<=4; c++){
+                a[c] =c+1;
+            }
+            for (int value:a) {
+                System.out.println(value);
+
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {
+//            throw new RuntimeException(e);
+            System.out.println("Array out of bounds");
+        }catch (Exception e) {
+//            throw new RuntimeException(e);
+            System.out.println("Unknown exception");
+        }
     }
 }
