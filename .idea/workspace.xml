@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eba78fac-3963-4389-a264-b7dcfeccab68" name="Changes" comment="use try block with a Resource">
-      <change afterPath="$PROJECT_DIR$/src/DemoException3.java" afterDir="false" />
+    <list default="true" id="eba78fac-3963-4389-a264-b7dcfeccab68" name="Changes" comment="use throws to suppress the Exception">
+      <change afterPath="$PROJECT_DIR$/src/DemoException4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,12 @@
     "onboarding.tips.debug.path": "/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Exceptions/exceptions/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoException3">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DemoException4">
     <configuration name="DemoException" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoException" />
       <module name="exceptions" />
@@ -57,6 +62,14 @@
     </configuration>
     <configuration name="DemoException3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoException3" />
+      <module name="exceptions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoException4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoException4" />
       <module name="exceptions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <method v="2">
@@ -82,12 +95,14 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DemoException" />
+      <item itemvalue="Application.DemoException4" />
       <item itemvalue="Application.DemoException3" />
       <item itemvalue="Application.InputDemo" />
       <item itemvalue="Application.DemoException2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoException4" />
         <item itemvalue="Application.DemoException3" />
         <item itemvalue="Application.InputDemo" />
         <item itemvalue="Application.DemoException2" />
@@ -143,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727430261601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="use throws to suppress the Exception">
+      <option name="closed" value="true" />
+      <created>1727441728270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727441728270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,7 +175,8 @@
     <MESSAGE value="use try and catch block to catch NumberFormatException" />
     <MESSAGE value="use finally block to print out the word &quot;Bye&quot;" />
     <MESSAGE value="use try block with a Resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="use try block with a Resource" />
+    <MESSAGE value="use throws to suppress the Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="use throws to suppress the Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
