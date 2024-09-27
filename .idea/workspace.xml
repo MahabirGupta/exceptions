@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eba78fac-3963-4389-a264-b7dcfeccab68" name="Changes" comment="use try and catch block to catch ArithmeticException">
-      <change afterPath="$PROJECT_DIR$/src/DemoException2.java" afterDir="false" />
+    <list default="true" id="eba78fac-3963-4389-a264-b7dcfeccab68" name="Changes" comment="use try and catch block to catch NumberFormatException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DemoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DemoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DemoException2.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoException2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DemoException2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoException2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727422707331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="use try and catch block to catch NumberFormatException">
+      <option name="closed" value="true" />
+      <created>1727426105893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727426105893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create a repository for exceptions" />
     <MESSAGE value="use try and catch block to catch ArithmeticException" />
-    <option name="LAST_COMMIT_MESSAGE" value="use try and catch block to catch ArithmeticException" />
+    <MESSAGE value="use try and catch block to catch NumberFormatException" />
+    <option name="LAST_COMMIT_MESSAGE" value="use try and catch block to catch NumberFormatException" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

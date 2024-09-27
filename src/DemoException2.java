@@ -12,6 +12,7 @@ public class DemoException2 {
         try {
             j = Integer.parseInt(bufferedReader.readLine());
             k = i / j;
+            System.out.println("Output = "+k);
         } catch (NumberFormatException e) {
             System.out.println("Enter integers only");
         }
@@ -20,8 +21,11 @@ public class DemoException2 {
 
         } catch (IOException e) {
             System.out.println("Some input output error");
+        }finally {
+            System.out.println("Bye");
+
         }
-        System.out.println(k);
+
 
     }
 }
